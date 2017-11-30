@@ -277,12 +277,12 @@ body{
   padding-bottom:95px;
   /*нужен ли padding?*/
 }
-.press p{
+.press .feedback{
   font-size:16px;
   padding-bottom: 60px;
   position: relative;
 }
-.press p::before{
+.press .feedback::before{
   content:"";
   position:absolute;
   height: 45px;
